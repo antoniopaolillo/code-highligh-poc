@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.CourseContentCodeHighlightCopy {
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+.CourseContentCodeHighlightCopy {
+  display: block;
+  padding-left: 0.5rem/* 8px */;
+  padding-right: 0.5rem/* 8px */;
+  border-width: 2px;
+  border-style: solid;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  cursor: pointer;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 0.7em;
+  border-color: #111;
+  border-radius: 3px 3px 0 0;
+  color: #111;
+
+}
+
+.CourseContentCodeHighlightCopy:hover {
+  --bg-opacity: 1;
+  background-color: #32A791;
+  background-color: rgba(50, 167, 145, var(--bg-opacity));
+  opacity: 0.8;
+}
+
+.CourseContentCodeHighlightCopy:focus {
+  --bg-opacity: 1;
+  background-color: #32A791;
+  background-color: rgba(50, 167, 145, var(--bg-opacity));
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.CourseContentCodeHighlightCopy:active {
+  --bg-opacity: 1;
+  background-color: #036B52;
+  background-color: rgba(3, 107, 82, var(--bg-opacity));
+}
